@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="drag-min.js"></script>
+    <script type="text/javascript">
+        // after page is loaded, initialize DIV elements inside tables
+        window.onload = function () {
+            // initialization
+            REDIPS.drag.init();
+            // set hover color
+            REDIPS.drag.hover_color = '#E7C7B2';
+            // set drop option to 'switching'
+            REDIPS.drag.drop_option = 'switching';
+        }
+    </script>
+</head>
+
+<body>
+    <span class="span1">Minecraft</span>
+    <span class="span2">Press 'E' to open inventory</span>
+    <div class="container">
+        <div class="inventory">
+            <div class="top-block">
+                <div class="profile">
+                    <table class="armor">
+                        <tr>
+                            <td>
+                                <img src="assets/armor-helmet.png" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/armor-legs.png" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/armor-body.png" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="assets/armor-boots.png" alt="">
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="avatar">
+                        <img src="assets/steve.png" alt="" class="steve">
+                    </div>
+                    <table class="left-hand">
+                        <tr>
+                            <td><img src="assets/shield.png" alt=""></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="craft">
+                    <h2>Crafting</h2>
+                    <div class="crafting">
+                        <table>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        <div class="arrow">
+                            <img src="assets/arr.png" alt="">
+                        </div>
+                        <table class="result">
+                            <tr>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-block" id="drag">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="drag">
+                                Hello
+                            </div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                        <td>
+                            <div class="drag"></div>
+                        </td>
+                    </tr>
+                </table>
+                <table class="main">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
