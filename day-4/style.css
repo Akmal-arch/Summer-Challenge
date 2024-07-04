@@ -76,3 +76,10 @@ body {
         transform: translateY(-30px);
     }
 }
+
+
+@media (max-width: 767px) {
+    .dock img:nth-child(even) {
+        display: none;
+    }
+}
